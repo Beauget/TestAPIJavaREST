@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: fr.umfds.TPtestServicesREST.ITIntegration
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.067 s <<< FAILURE! - in fr.umfds.TPtestServicesREST.ITIntegration
+fr.umfds.TPtestServicesREST.ITIntegration.testGetBrainstorms  Time elapsed: 0.982 s  <<< FAILURE!
+java.lang.AssertionError: Http Response should be 200:  expected:<200> but was:<405>
+	at TPtestServicesREST@0.0.1-SNAPSHOT/fr.umfds.TPtestServicesREST.ITIntegration.testGetBrainstorms(ITIntegration.java:56)
+
